@@ -1,0 +1,19 @@
+{
+  "name": "agent-api",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bun run --watch app.ts",
+    "start": "bun run app.ts",
+    "build": "bun build ./app.ts --outdir ./dist",
+    "clean": "rm -rf dist",
+    "lint": "eslint . --ext .ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "hono": "4.7.1"
+  },
+  "devDependencies": {
+    "bun-types": "1.2.2",
+    "@types/node": "22.13.4"
+  }
+}

@@ -1,0 +1,8 @@
+node_modules
+.env
+Control/node_modules
+Control/.env
+Control/dev.db
+*.db
+*.log
+sqlite.db
